@@ -1,0 +1,390 @@
+{
+	"info": {
+		"_postman_id": "b25205b0-e494-4bc7-9ca4-86e5362dddf6",
+		"name": "«ДЗ_Postman_Васюкова_Наталья»",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39677663"
+	},
+	"item": [
+		{
+			"name": "1 Позитивный сценарий кириллица",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Обновила комментарий\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/f0f643a9-8098-44a8-94af-2e2191fa39f9",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"f0f643a9-8098-44a8-94af-2e2191fa39f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 Позитивный сценарий латиница",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Hello abcdefg iklmnop rstqxwvyz\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/f0f643a9-8098-44a8-94af-2e2191fa39f9",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"f0f643a9-8098-44a8-94af-2e2191fa39f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 Позитивный сценарий текст и картинка JPEG",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Hello, it's a cat\",\r\n  \"attachments\": [\r\n    \"c0ff2e0b-7689-4f75-8d6b-6681f4421542\"\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/f0f643a9-8098-44a8-94af-2e2191fa39f9",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"f0f643a9-8098-44a8-94af-2e2191fa39f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 Позитивный сценарий картинка JPEG без текста",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"\",\r\n  \"attachments\": [\r\n    \"c0ff2e0b-7689-4f75-8d6b-6681f4421542\"\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/f0f643a9-8098-44a8-94af-2e2191fa39f9",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"f0f643a9-8098-44a8-94af-2e2191fa39f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5 Позитивный сценарий две картинки без текста",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"\",\r\n  \"attachments\": [\r\n    \"c0ff2e0b-7689-4f75-8d6b-6681f4421542\", \"46dbfd65-3cfd-4700-b171-27badff3411e\"\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/f0f643a9-8098-44a8-94af-2e2191fa39f9",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"f0f643a9-8098-44a8-94af-2e2191fa39f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6 Разрешенные специсимволы и цифры",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"0123456789.,!?:;()[]{}<>/'-=+_%*@\\\"\\\"\\\\\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/f0f643a9-8098-44a8-94af-2e2191fa39f9",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"f0f643a9-8098-44a8-94af-2e2191fa39f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7 Макс длина 5000",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Природа и её величие Природа — это удивительный и многогранный мир, который окружает нас. Она полна тайн и чудес, которые вдохновляют людей на протяжении веков. Леса, горы, реки и океаны — все это не только источники жизни, но и места, где человек может найти умиротворение и гармонию. Природа обладает своей уникальной красотой, которая меняется с каждым сезоном. Весной цветут цветы, летом деревья покрываются зеленью, осенью листья меняют цвет, а зимой природа погружается в снежное одеяло. Каждый элемент природы играет свою роль в экосистеме. Растения производят кислород, животные участвуют в опылении и распространении семян, а микроорганизмы разлагают органические вещества, возвращая питательные вещества в почву. Это сложное взаимодействие создает баланс, который необходим для существования жизни на Земле. Однако, к сожалению, человеческая деятельность часто нарушает этот баланс. Вырубка лесов, загрязнение водоемов и изменение климата — все это приводит к разрушению экосистем и исчезновению видов. Технологии и их влияние на общество С развитием технологий мир изменился до неузнаваемости. Инновации в области информационных технологий, биотехнологий и энергетики открывают новые горизонты для человечества. Интернет, мобильные устройства и социальные сети изменили способ общения и взаимодействия людей. Мы можем общаться с друзьями и родственниками, находящимися на другом конце света, делиться своими мыслями и идеями, а также получать доступ к огромному количеству информации. Однако с ростом технологий возникают и новые вызовы. Проблемы конфиденциальности, кибербезопасности и зависимости от технологий становятся все более актуальными. Люди начинают осознавать, что чрезмерное использование технологий может привести к изоляции и потере социальных связей. Важно находить баланс между использованием технологий и реальной жизнью, чтобы не потерять человеческое взаимодействие. Искусство как отражение человеческой души Искусство — это еще одна важная составляющая человеческой культуры. Оно позволяет людям выражать свои чувства, мысли и идеи. Искусство может принимать различные формы: живопись, музыка, литература, театр и кино. Каждое произведение искусства — это отражение времени, в котором оно было создано, и эмоций автора. Музыка, например, способна вызывать сильные эмоции и объединять людей. Она может быть источником вдохновения, утешения и радости. Литература, в свою очередь, позволяет нам погрузиться в мир фантазии и узнать о жизни других людей. Книги могут открывать новые горизонты и помогать нам лучше понять себя и окружающий мир. Искусство также играет важную роль в обществе. Оно может быть инструментом для социальных изменений, поднимая важные вопросы и вызывая дискуссии. Художники и писатели часто становятся голосом своего поколения, отражая его надежды и страхи. Философия и поиск смысла жизни Философия — это область знаний, которая занимается вопросами существования, знания, морали и смысла жизни. Философы на протяжении веков задавали себе вопросы о том, что такое счастье, какова природа реальности и как мы можем познать истину. Эти вопросы остаются актуальными и сегодня. Поиск смысла жизни — это универсальная человеческая потребность. Каждый из нас стремится понять, зачем мы здесь и какова наша роль в этом мире. Некоторые находят смысл в семье, другие — в карьере, а кто-то — в служении обществу. Важно помнить, что смысл жизни может быть разным для каждого человека, и это нормально. Философия также помогает нам развивать критическое мышление и способность анализировать свои убеждения. Она учит нас задавать вопросы и искать ответы, а не принимать все на веру. Это важный навык в современном мире, где информация доступна в огромных объемах, и необходимо уметь отличать правду от лжи. Заключение В заключение, природа, технологии, искусство и философия — это важные аспекты нашей жизни, которые взаимосвязаны и влияют друг на друга. Природа вдохновляет нас на творчество и инновации, технологии открывают новые возможности для самовыражения, искусство помогает нам понять себя и окружающий мир, а философия побуждает нас задавать важные вопросы о жизни. Важно ценить и беречь природу, использовать технологии с умом, развивать искусство и не забывать о философских размышлениях, чтобы создать гармоничное и устойчивое общество. искусство и философия — это важные аспекты нашей жизни, которые взаимосвязаны и влияют друг на друга. Природа вдохновляет нас на творчество и инновации, технологии открывают новые возможности для самовыражения, искусство помогает нам понять себя и окружающий мир, а философия побуждает нас задавать важные вопросы о жизни. Важно ценить и беречь природу, использовать технологии с умом, развивать искусство и не забывать о философских размышлениях, чтобы создать гармоничное и устойчивое общество. искусство и не забывать о философских размышлениях, чтобы создать гармоничное и устойчивое общество. , технологии открывают новые возможности для самовыражения, искусствомммВажно ценитьновые возможности для самовы\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/f0f643a9-8098-44a8-94af-2e2191fa39f9",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"f0f643a9-8098-44a8-94af-2e2191fa39f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8 5000+1 символ",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Природа и её величие Природа — это удивительный и многогранный мир, который окружает нас. Она полна тайн и чудес, которые вдохновляют людей на протяжении веков. Леса, горы, реки и океаны — все это не только источники жизни, но и места, где человек может найти умиротворение и гармонию. Природа обладает своей уникальной красотой, которая меняется с каждым сезоном. Весной цветут цветы, летом деревья покрываются зеленью, осенью листья меняют цвет, а зимой природа погружается в снежное одеяло. Каждый элемент природы играет свою роль в экосистеме. Растения производят кислород, животные участвуют в опылении и распространении семян, а микроорганизмы разлагают органические вещества, возвращая питательные вещества в почву. Это сложное взаимодействие создает баланс, который необходим для существования жизни на Земле. Однако, к сожалению, человеческая деятельность часто нарушает этот баланс. Вырубка лесов, загрязнение водоемов и изменение климата — все это приводит к разрушению экосистем и исчезновению видов. Технологии и их влияние на общество С развитием технологий мир изменился до неузнаваемости. Инновации в области информационных технологий, биотехнологий и энергетики открывают новые горизонты для человечества. Интернет, мобильные устройства и социальные сети изменили способ общения и взаимодействия людей. Мы можем общаться с друзьями и родственниками, находящимися на другом конце света, делиться своими мыслями и идеями, а также получать доступ к огромному количеству информации. Однако с ростом технологий возникают и новые вызовы. Проблемы конфиденциальности, кибербезопасности и зависимости от технологий становятся все более актуальными. Люди начинают осознавать, что чрезмерное использование технологий может привести к изоляции и потере социальных связей. Важно находить баланс между использованием технологий и реальной жизнью, чтобы не потерять человеческое взаимодействие. Искусство как отражение человеческой души Искусство — это еще одна важная составляющая человеческой культуры. Оно позволяет людям выражать свои чувства, мысли и идеи. Искусство может принимать различные формы: живопись, музыка, литература, театр и кино. Каждое произведение искусства — это отражение времени, в котором оно было создано, и эмоций автора. Музыка, например, способна вызывать сильные эмоции и объединять людей. Она может быть источником вдохновения, утешения и радости. Литература, в свою очередь, позволяет нам погрузиться в мир фантазии и узнать о жизни других людей. Книги могут открывать новые горизонты и помогать нам лучше понять себя и окружающий мир. Искусство также играет важную роль в обществе. Оно может быть инструментом для социальных изменений, поднимая важные вопросы и вызывая дискуссии. Художники и писатели часто становятся голосом своего поколения, отражая его надежды и страхи. Философия и поиск смысла жизни Философия — это область знаний, которая занимается вопросами существования, знания, морали и смысла жизни. Философы на протяжении веков задавали себе вопросы о том, что такое счастье, какова природа реальности и как мы можем познать истину. Эти вопросы остаются актуальными и сегодня. Поиск смысла жизни — это универсальная человеческая потребность. Каждый из нас стремится понять, зачем мы здесь и какова наша роль в этом мире. Некоторые находят смысл в семье, другие — в карьере, а кто-то — в служении обществу. Важно помнить, что смысл жизни может быть разным для каждого человека, и это нормально. Философия также помогает нам развивать критическое мышление и способность анализировать свои убеждения. Она учит нас задавать вопросы и искать ответы, а не принимать все на веру. Это важный навык в современном мире, где информация доступна в огромных объемах, и необходимо уметь отличать правду от лжи. Заключение В заключение, природа, технологии, искусство и философия — это важные аспекты нашей жизни, которые взаимосвязаны и влияют друг на друга. Природа вдохновляет нас на творчество и инновации, технологии открывают новые возможности для самовыражения, искусство помогает нам понять себя и окружающий мир, а философия побуждает нас задавать важные вопросы о жизни. Важно ценить и беречь природу, использовать технологии с умом, развивать искусство и не забывать о философских размышлениях, чтобы создать гармоничное и устойчивое общество. искусство и философия — это важные аспекты нашей жизни, которые взаимосвязаны и влияют друг на друга. Природа вдохновляет нас на творчество и инновации, технологии открывают новые возможности для самовыражения, искусство помогает нам понять себя и окружающий мир, а философия побуждает нас задавать важные вопросы о жизни. Важно ценить и беречь природу, использовать технологии с умом, развивать искусство и не забывать о философских размышлениях, чтобы создать гармоничное и устойчивое общество. искусство и не забывать о философских размышлениях, чтобы создать гармоничное и устойчивое общество. , технологии открывают новые возможности для самовыражения, искусствомммВажно ценитьновые возможности для самовыр\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/f0f643a9-8098-44a8-94af-2e2191fa39f9",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"f0f643a9-8098-44a8-94af-2e2191fa39f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "9 Пустой комментарий",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/f0f643a9-8098-44a8-94af-2e2191fa39f9",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"f0f643a9-8098-44a8-94af-2e2191fa39f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10 Чужой комментарий",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDU0M2M0YS01MDlmLTQ1NWMtYTQ0Yy05MTc4MDUwNjZiNGEiLCJzaWQiOiIxNDdhODM3Ni0zNmMzLTQ2OTAtYWE2Yy1iMmZhNTJkNWM5MDEiLCJzdWIiOiJoYW5uaWRldGthQGdtYWlsLmNvbSIsIkZlYXR1cmUiOlsiUGF5cm9sbHMiLCJUaW1lTGluZSIsIlN1cnZleXMiLCJEb2N1bWVudHMiLCJOZXdzRWRpdG9yIiwiV2lkZ2V0cyIsIkJpcnRoZGF5cyIsIlNheVRoYW5rcyIsIkV4dGVybmFsU2VydmljZXMiLCJGaWxlcyIsIkNoYXRzIiwiR2VvbG9jYXRpb24iLCJFbXBsb3llZXNSZXBvcnQiLCJFdmVudENhdGVnb3JpZXMiLCJBY2hpZXZlbWVudHMiXSwiUm9sZSI6IkV2ZW50c0NyZWF0b3IiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJFdmVudHNDcmVhdG9yIiwiZXhwIjoxNzQzNDk2NzA0LCJpc3MiOiJHQ2xvdWQuU3RhZmYiLCJhdWQiOiJHQ2xvdWQuU3RhZmYifQ.DYEoip-TCXlgb95edbHJzqcPQyVV_k-kIHX6DQi-Bxo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Пытаемся изменить комментарий другого пользователя, не имея прав\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://staff-testing.testkontur.ru/api/v1/comments/c7257333-2097-44a2-b453-49426b507f7e",
+					"protocol": "https",
+					"host": [
+						"staff-testing",
+						"testkontur",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"comments",
+						"c7257333-2097-44a2-b453-49426b507f7e"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
