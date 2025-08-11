@@ -1,0 +1,70 @@
+{ "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Схема данных о заказе",
+  "type": "object",
+  "properties":
+   {
+    "orderId":
+      { "description": "Уникальный ID заказа",
+        "type": "string"
+      },
+    "userId":
+      { "description": "Уникальный ID клиента",
+        "type": "string"
+      },
+    "creationDate":
+      { "description": "Дата создания",
+        "type": "string",
+        "format": "date-time"
+      },
+    "lastUpdateDate":
+      { "description": "Дата последнего обновления",
+        "type": "string",
+        "format": "date-time"
+      },
+    "products": 
+      { "description": "Список товаров в заказе",
+        "type": "array",
+        "items": {
+                "type": "object",
+                "properties": {
+                     "productId": {
+                            "description": "Уникальный ID товара",
+                            "type": "string"
+                                  },
+                     "productName": {
+                            "description": "Название товара",
+                            "type": "string"
+                                    },
+                     "quantity": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "description": "Количество товара"
+                                  }
+                                },
+                "required": ["productId", "productName", "quantity"]    
+                  },
+        "minItems": 1
+      },
+      "address":
+      { "description": "Адрес доставки",
+        "type": "object",
+        "properties": {
+                  "street": {
+                            "type": "string"
+                            },
+                  "city": {
+                             "type": "string"
+                            }
+            },
+          "required": ["street", "city"]
+        }
+   },
+   "required": [
+        "orderId",
+        "userId",
+        "creationDate",
+        "lastUpdateDate",
+        "products",
+        "address"
+   ]
+}
